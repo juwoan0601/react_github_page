@@ -18,6 +18,22 @@ function App() {
         >
           Learn React
         </a>
+        <a
+          className="App-link"
+          href="https://create-react-app.dev/docs/adding-typescript/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Run create-react-app with Typescript
+        </a>
+        <a
+          className="App-link"
+          href="https://velog.io/@byjihye/react-github-pages"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Deploy React Project by Github pages
+        </a>
       </header>
     </div>
   );
