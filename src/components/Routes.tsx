@@ -4,15 +4,15 @@ import Header from "./Header";
 import homePage from '../pages/home';
 import awardPage from '../pages/award';
 import projectPage from '../pages/project';
-import specialThanksPage from '../pages/specialthanks';
+import referencePage from '../pages/reference';
 
 const MyRouter: React.FunctionComponent = props => {
     return <Router basename="/">
         <Header/>
         <Route exact path="/" component={homePage}/>
-        <Route path="/project" component={projectPage}/>
-        <Route path="/award" component={awardPage}/>
-        <Route path="/special" component={specialThanksPage}/>
+        <Route path="/?p=/project" component={projectPage}/>
+        <Route path="/?p=/award" component={awardPage}/>
+        <Route path="/?p=/reference" component={referencePage}/>
     </Router>
 }
 
