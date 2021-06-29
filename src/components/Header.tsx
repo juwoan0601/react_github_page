@@ -10,7 +10,6 @@ const Header: React.FunctionComponent = props => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/home">HOME</Nav.Link>
           <Nav.Link href="/project">PROJECT</Nav.Link>
           <Nav.Link href="/award">AWARD</Nav.Link>
           <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
